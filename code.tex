@@ -1,0 +1,250 @@
+% Latex-resume-code
+
+\documentclass[a4paper]{MagicalCV}
+
+
+% Removing page numbers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% Change the geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Defining your colors
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-purple}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% start document
+\begin{document}
+
+% Last update time
+\lastupdated
+
+% Title name
+\namesection{Rishabh }{Jain}{
+\phone{+91-9557768322} \email{\href{mailto:jain.51@iitj.ac.in}{jain.51@iitj.ac.in}}}
+
+% Column one
+\begin{minipage}[t]{0.33\textwidth} 
+
+% Education
+\cvsection{Education} 
+\newline
+\subsection{IIT JODHPUR}
+\newline
+\descript{B.TECH IN Electrical Engg.  2020-2024*}
+Cum. GPA :
+\textbf{ 7.64}
+(till 4th Sem)
+\newline
+\subsection{SENIOR SECONDARY}
+%\descript{BTech in Computer Science}
+%\cvevent{Sep 2020}{Gwalior, MP} 
+New St. Stephen’s Public School, Agra |
+2019 Percentage: {\bf 93.8}
+\newline
+\subsection{SECONDARY}
+%\descript{BTech in Computer Science}
+%\cvevent{Sep 2020}{Gwalior, MP} 
+New St. Stephen’s Public School, Agra |
+2017 CGPA: {\bf 9.2}
+
+
+\sectionsep
+
+% Links
+\cvsection{Links}\\
+\linkedin{Linkedin} \href{https://www.linkedin.com/in/rishabh-jain-653611237/}{\bf Rishabh Jain}
+\github{GitHub} \href{https://github.com/struglingcoder/}{\bf struglingcoder}\\
+\textbullet{} \codechef{Codechef} \href{https://www.codechef.com/users/struglingcoder/}{\bf struglingcoder}\\
+\newline
+\textbullet{}\codeforces{Codeforces}
+\href{https://codeforces.com/profile/strugling_coder/}{\bf struglingcoder}
+
+\sectionsep
+
+% Coursework
+\cvsection{Coursework}\\
+\bigskip
+\subsection{UnderGraduate}
+
+ \textbullet{} Data Structure and Algorithms \\
+ \textbullet{} Pattern Recognition and \\ \hspace{0.14cm} Machine Learning \\
+ \textbullet{} Probability, Statistics and\\ \hspace{0.14cm} Stochastic process \\
+ \textbullet{} Introduction to Computer\\ \hspace{0.14cm} Science \\
+  \textbullet{} Foundations of Quantum\\ \hspace{0.14cm} Information \\ 
+  \textbullet{} Digital Design \\
+  \textbullet{} Circuit Theory \\
+  \textbullet{} Engineering Design \\
+  \textbullet{} Signal and Systems
+%Artificial Intelligence \\
+%Machine Learning \\
+%Statistical Learning \\ 
+%\textbf{Dissertation: }
+%Machine learning methods for solubility prediction in chemical experiments
+\sectionsep
+
+% Skills
+\cvsection{Skills}\\
+\bigskip
+\subsection{Programming}
+\descript{Proficient}
+ \textbullet{}   C++ \textbullet{} Python
+ \newline
+ \descript{Familiar}
+ \textbullet{} Java \textbullet{} HTML \textbullet{}
+CSS \newline \textbullet{} Javascript \textbullet{} Matlab \textbullet{} Latex
+\sectionsep
+\subsection{Miscellaneous}
+ \textbullet{} Competitive Programming \newline \textbullet{} Machine Learning \newline \textbullet{} Sklearn \textbullet{} numpy \textbullet{} pandas\newline \textbullet{} Public Speaking
+ \newline
+ \textbullet{} Stock Market Investor
+\sectionsep
+% Honors
+%\cvsection{Honors} 
+
+%\subsection{Excellence Scholarship}
+%\descript{University of leeds}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%
+%\sectionsep
+
+%\subsection{Industrial Visit}
+%\descript{Infosys Pune}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%I was as one of the students for industrial training, where 28 students were chosen out of 2000.
+%\sectionsep
+
+% Column two
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+\cvsection{Experience}\\
+\newline
+\runsubsection{{\textbf{SDE INTERNSHIP | Getout Travel  }}}\\
+\descript{| OpenCV, NodeJS, Python, ReactNative or Native |}
+\cvevent{29 sep 2022 – present}{Remote}\\ 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\begin{small}
+\item {\textbf{Getout Travel}} a digital travel eco system for all businesses, individuals, and service providers.
+\item The \textbf{SDE-Intern} is responsible for developing \textbf{web applications} and
+\textbf{software} from requirements and specifications.
+\item Participates as \textbf{technical intern} to analyze
+\textbf{technical} system problems, and \textbf{designs} and \textbf{implements} effective solutions.
+\end{small}
+\end{tightemize}
+\sectionsep
+% Experience
+\cvsection{Projects}
+\newline
+\newline
+%\runsubsection{Rerouting application development for EVs|} \\
+\runsubsection{Rerouting application development for EVs| }\\
+\descript{Design Credit Project Dr. Ravi Yadav , IITJ |
+
+\href{https://ev-rerouting.herokuapp.com//}{ Website link  |}
+\hspace{0.3cm}
+\href{https://github.com/struglingcoder/Rerouting-application-development-for-EVs-/}{ Github Repository  |}}
+
+
+\cvevent{Jan 2022 – April 2022}{Jodhpur, Raj.} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\begin{small}
+\item Converted {\bf real world} data of latitude and longitude into
+{\bf graph nodes}. 
+\item Used {\bf Dijkstra’s algorithm} to find the {\bf shortest path} between Source location and final destination.
+\item Considering the factors {\bf Current charging status} and
+location of {\bf  Charging station}.
+\item Displayed the optimal path in {\bf  google map }Highlighting
+{\bf  the optimal route.}
+\end{small}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Heart Failure Detection |} \\
+\descript{building a Heart
+Failure Predictor | Machine Learning |Course Project
+Dr. Richa Singh, IITJ |
+\href{https://github.com/struglingcoder/prml-course-project/}{\hspace{0.3cm}| Github Repository  |}}
+\cvevent{Jan 2022 – Apr 2022}{Jodhpur, Raj}\\ 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\begin{small}
+\item Used {\bf SVM, XGBoost } and other various classification algorithms to predict heart failure.
+\item Tune the {\bf Hyper parameters} of Models which have higher {\bf  accuracy score}.
+\item Used {\bf pyplot} from {\bf matplotlib} library to visualize the accuracy score of the tuned parameters.
+\end{small}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Bitcoin Price Prediction| } \\
+\descript{building a Bitcoin
+Price Predictor Machine Learning Course Bonus
+Project Dr. Richa Singh, IITJ | \href{https://github.com/struglingcoder/prml_bonus_project/}{\hspace{0.3cm}| Github Repository  |}}
+\cvevent{Jan 2022 – Apr 2022}{Jodhpur, Raj} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\begin{small}
+\item Used {\bf LinearRegressor , AdaBoostRegressor} and other various regression algorithms to predict {\bf  Bitcoin } price.
+\item Tune the {\bf Hyper parameters} of various Regression Models by scratch.
+\item  Used {\bf pyplot} from {\bf matplotlib} library to visualize the {\bf  MSE} of the tuned parameters.
+\end{small}
+\end{tightemize}
+\sectionsep
+
+
+% Competitions
+\cvsection{ACHIEVEMENTS}
+\bigskip
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\begin{small}
+\item  {\bf 2019  \hspace{1cm} 1st Rank} \hspace{0.9cm} Secured 1st Rank in {\bf Class XII} ( School Topper )
+\item  {\bf 2020  \hspace{1cm} Top 1 percent} \hspace{0.37cm} Among Top 1 percent in {\bf JEE Advanced}
+\item  {\bf 2020  \hspace{1cm} 6th Rank} \hspace{1.17cm} Secured {\bf Department rank-6 } in first year
+
+\item  {\bf 2021  \hspace{1cm} Branch Change} \hspace{0.27cm} Succeeded in {\bf  department
+change } from  Chemical\\ \hspace{4.65cm}to Electrical
+\end{small}
+\end{tightemize}
+\sectionsep
+
+
+% Recent Projects
+\cvsection{EXTRACURRICULARS} \\
+\bigskip
+\begin{small}
+ \textbullet{} Registerd District {\bf Cricket} Player ( Agra, Uttar Pradesh)\\
+ \textbullet{} Core Member of {\bf Drama Society} of IIT Jodhpur, {\bf Dramebaaz}\\
+ \textbullet{} {\bf Co-ordinator} in the largest annual Inter College {\bf Sports Fest} of IIT Jodhpur, {\bf Varchas}\\
+ \textbullet{} Secured {\bf 4th Rank} in inter-Hostel
+poetry Competition , {\bf Spandan}
+\end{small}
+\sectionsep
+
+%\runsubsection{Study of the behaviour of Serial Killers’} \\
+%\descript{University of Leeds}
+%\cvevent{Nov 2021 – Dec 2021}{Leeds, UK} 
+%The study of the behaviour of serial killers with different motives such as %Convenience (did not want children/spouse), Enjoyment or Power and Escape or %avoiding arrest.
+\end{minipage} 
+\end{document}  
